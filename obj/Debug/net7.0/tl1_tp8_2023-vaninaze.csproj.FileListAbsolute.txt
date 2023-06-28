@@ -1,0 +1,15 @@
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\bin\Debug\net7.0\tl1_tp8_2023-vaninaze.exe
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\bin\Debug\net7.0\tl1_tp8_2023-vaninaze.deps.json
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\bin\Debug\net7.0\tl1_tp8_2023-vaninaze.runtimeconfig.json
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\bin\Debug\net7.0\tl1_tp8_2023-vaninaze.dll
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\bin\Debug\net7.0\tl1_tp8_2023-vaninaze.pdb
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.csproj.AssemblyReference.cache
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.GeneratedMSBuildEditorConfig.editorconfig
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.AssemblyInfoInputs.cache
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.AssemblyInfo.cs
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.csproj.CoreCompileInputs.cache
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.dll
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\refint\tl1_tp8_2023-vaninaze.dll
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.pdb
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\tl1_tp8_2023-vaninaze.genruntimeconfig.cache
+C:\TP-Taller1\tl1_tp8_2023-vaninaze\obj\Debug\net7.0\ref\tl1_tp8_2023-vaninaze.dll
