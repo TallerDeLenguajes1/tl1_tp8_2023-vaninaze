@@ -1,4 +1,4 @@
-﻿using EspacioTareas;
+﻿/*using EspacioTareas;
 
 List<Tarea> ListaPend = new List<Tarea>();
 List<Tarea> ListaReal = new List<Tarea>();
@@ -65,3 +65,39 @@ for (int i = 0; i < ListaReal.Count; i++)
     archivo.WriteLine("Duracion,"+ListaReal[i].Duracion);
 }
 archivo.Close();
+*/
+using System;
+using System.IO;
+using System.Collections.Generic;
+
+Console.WriteLine("Ingrese el path de una carpeta: ");
+string directorio = Console.ReadLine();
+
+//Guardo los archivos en una lista
+List<string> ListArchivos = Directory.GetFiles(directorio).ToList();
+
+Console.WriteLine("Archivos en la carpeta: ");
+foreach (string archivo in ListArchivos)
+{
+    Console.WriteLine("\t"+archivo);
+}
+if(!File.Exists("index.csv")){ //creo un archivo
+    File.Create("index.csv");
+}
+string? nombre;
+string? extension;
+string[] linea = new string[ListArchivos.Count];
+string directActual = Directory.GetCurrentDirectory();
+string RutaArchivo = directActual+@"\index.csv";
+
+for (int i = 0; i < ListArchivos.Count; i++)
+{
+    FileInfo archivo = new FileInfo(ListArchivos[i]);
+    nombre = Path.GetFileNameWithoutExtension(archivo.Name);
+    extension = Path.GetExtension(archivo.Name);
+    linea[i] = i.ToString()+","+nombre+","+extension;
+    Console.WriteLine(linea[i]);
+
+}
+//Guardo en archivo index.csv
+File.WriteAllLines(RutaArchivo,linea);
